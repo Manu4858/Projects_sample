@@ -59,6 +59,7 @@ Copy code
    ```bash
    git clone https://github.com/your-username/project02.git
    cd project02/project
+   
 Install dependencies
 
 bash
@@ -79,6 +80,8 @@ Preview the production build
 bash
 Copy code
 npm run preview
+
+⚙️ Note: The node_modules folder is not included in this repository. Run npm install after cloning to generate it automatically.
 🧑‍💻 Development Notes
 Make sure you have Node.js (>=18) and npm (>=9) installed.
 
