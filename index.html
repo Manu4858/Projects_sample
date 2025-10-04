@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+    <title>IELTS Institute | Learn & Succeed</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+
+    <!-- SEO Meta Tags -->
+    <meta
+      name="description"
+      content="IELTS Institute – Boost your band score with expert coaching, mock tests, and AI-powered practice tools."
+    />
+    <meta name="author" content="IELTS Institute" />
+    <meta
+      name="keywords"
+      content="IELTS, IELTS Coaching, English Speaking, Mock Tests, Band Score, Exam Prep"
+    />
+
+    <!-- Social Media / Open Graph -->
+    <meta property="og:title" content="IELTS Institute | Learn & Succeed" />
+    <meta
+      property="og:description"
+      content="Boost your IELTS band score with expert teachers and AI-powered tools."
+    />
+    <meta property="og:image" content="/og-banner.png" />
+    <meta property="og:type" content="website" />
+
+    <!-- Google Fonts (example: Inter) -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Add a subtle background color before React mounts -->
+    <style>
+      body {
+        margin: 0;
+        font-family: "Inter", sans-serif;
+        background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+        color: #222;
+      }
+
+      #root {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+      }
+
+      /* Loading state before React renders */
+      #root::before {
+        content: "Loading IELTS Institute...";
+        font-size: 1.25rem;
+        font-weight: 600;
+        color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
